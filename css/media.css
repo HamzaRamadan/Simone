@@ -1,0 +1,215 @@
+/* start section 1 */
+
+@media screen and (max-width: 600px) {
+    .header {
+        width: 100%;
+    }
+    .header .layer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav ul li {
+        width: 30%;
+        padding: 2px 0px;
+    }
+}
+
+
+/* start section 1 */
+
+
+/* start section 2 */
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    .About {
+        height: 150vh;
+    }
+    .know {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .About .contaner p {
+        margin-bottom: 10px;
+    }
+    .About .know .text {
+        width: 100%;
+    }
+    .About .know .defination {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width:767px) {
+    .About .contaner .number .years {
+        width: 25%;
+    }
+}
+
+
+/* end section 2 */
+
+
+/* start section 3 */
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .design {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+/* end section 3 */
+
+
+/* start section 4 */
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .Computer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .skills .full {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .summary .contaner {
+        height: 250vh;
+    }
+}
+
+
+/* end section 4 */
+
+
+/* start section 5 */
+
+@media screen and (min-width: 0px) and (max-width: 575px) {
+    .Portfolio .photos {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .Portfolio .photos .images {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .Portfolio .photos {
+        display: flex;
+        /* flex-direction: column;
+        text-align: center; */
+    }
+    .Portfolio .photos .images {
+        width: 77%;
+    }
+}
+
+
+/* end section 5 */
+
+
+/* start section 6 */
+
+@media screen and (min-width: 0px) and (max-width: 992px) {
+    .Client .items {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .Client .items .dennis {
+        width: 100%;
+    }
+    .Client .items .jay {
+        width: 100%;
+    }
+}
+
+
+/* end section 6 */
+
+
+/* start section 7 */
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .contact .contanier {
+        height: 130%;
+    }
+    .contact .about {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact .about .send {
+        width: 100%;
+    }
+    .contact .about .send .sii {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    /* .contact .about .send .name {
+        width: 100%;
+    }
+    .contact .about .send .email {
+        width: 100%;
+    }
+    .contact .about .send .sii .textarea {
+        width: 100%;
+    } */
+    .contact .about .send button {
+        width: 50%;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+}
+
+
+/* end section 7 */
+
+
+/* start footer */
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .footer .contanier {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer .contanier .policy ul {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+/* end footer */
